@@ -44,7 +44,7 @@
    
    body {
      background-color: #000;
-     background-image: url("Background1.webp");
+     background-image: url("assets/Background.webp");
      background-position: 0px 0px;
      background-size: auto;
      font-family: Manrope, sans-serif;
@@ -1471,7 +1471,7 @@
    }
    
    .body-2 {
-     background-image: url("Background1.webp");
+     background-image: url("assets/Background.webp");
      background-size: auto, 300px 300px, 300px 300px;
      background-repeat: repeat, no-repeat, no-repeat;
      font-family: Manrope, sans-serif;
