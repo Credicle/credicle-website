@@ -20,12 +20,26 @@
     />
     <meta property="og:type" content="website" />
     <meta content="summary_large_image" name="twitter:card" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="JS/JQuery.js"></script>
+    <script src="JS/index.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link href="CSS/styles.css" rel="stylesheet" type="text/css" />
-    </script>
     <link href="assets/logog_w_name.png" rel="shortcut icon" type="image/x-icon" />
     <link href="assets/logog_w_name.png" rel="apple-touch-icon" />
   </head>
+
+  <!--Hamburger Menu Content-->
+  <div class="hamb-content">
+    <i class="bi bi-list hamburger" id="hamb-icon-open-menu"></i>
+    <div class="hamb-content-options">
+      <a class="navigation-item hamb-nav-item" href="index.html">Home</a>
+      <a class="navigation-item hamb-nav-item" href="team.html">Team</a>
+      <a class="navigation-item hamb-nav-item" href="careers.html">Careers</a>
+      <a class="navigation-item hamb-nav-item" href="https://calendly.com/crediclexyz/30min">Connect</a>
+    </div>
+  </div>
+
   <body class="body-2">
     <div
       data-collapse="medium"
@@ -64,6 +78,10 @@
             >
           </nav>
           <div class="menu-button w-nav-button"></div>
+          <!--Hamburger Menu Icon-->
+        <div>
+          <i class="bi bi-list hamburger" id="hamb-icon"></i>
+        </div>
         </div>
       </div>
     </div>
@@ -84,7 +102,7 @@
                 class="button-2 demo w-button"
                 >Sign up for beta</a
               >
-              <h5 class="paragraph-light left">
+              <h5 class="paragraph-light left" id="undertext">
                 Combining
                 <span class="text-span">on chain</span> and <br />‍<span
                   class="text-span"
