@@ -10,6 +10,4 @@ $( document ).ready(function() {
 
             $(".hamb-content").toggleClass("hamb-content-open");
     });
-
-
 });
